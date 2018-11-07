@@ -59,15 +59,15 @@ export function completeSpin() {
     const { angle } = wheel;
     const prize = config.getPrize(angle); // TODO += 270 % 360?
     // console.log('CONFIG:', config);
-    // console.log('PRIZE:', prize);
+    console.log('PRIZE:', prize);
     dispatch({
       type: 'COMPLETE_SPIN',
       spin: { angle, prize }
     });
-    // TODO: Change prize model to have a value or points.
-    // TODO: Some wedges might have prizes that do something else.
-    //        This would be the place to execute that method.
-    // prize.award();
+    // TODO: here we need to now ask about the capital 
+    // and check if the answer is correct or not
+    // we should disable the SPIN button and after pressing the SUBMIT button for the answer
+    // we should then add points 
     dispatch(addPoints(Number(prize.label)));
   };
 }

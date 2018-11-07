@@ -29,7 +29,7 @@ header {
 }
 
 main {
-  background: linear-gradient($blue, $black, $green);
+  background: linear-gradient($blue, $black, $blue);
   height: 100%;
 }
 
@@ -43,7 +43,8 @@ footer {
 
 .app {
   position: absolute;
-  background: radial-gradient(400px, $black, $white*0.5);
+  //background: radial-gradient(400px, $black, $white*0.5);
+  background-color: transparent;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);

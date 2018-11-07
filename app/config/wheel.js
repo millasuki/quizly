@@ -3,26 +3,26 @@ import debug from '../util/debug';
 const wheel = {
   prizes: [
     {
-      color: '#2d34ff',
+      color: '#00FFFF',
       weight: 2,
       label: 'Frankreich',
       answer: 'Paris'
     },
     {
-      color: '#b23caa',
-      weight: 2.5,
+      color: '#FF0088',
+      weight: 2,
       label: 'Deutschland',
       answer: 'Berlin'
     },
     {
       color: '#41bf73',
-      weight: 1.5,
+      weight: 2,
       label: 'Schweden',
       answer: 'Stockholm'
     },
     {
-      color: '#b23caa',
-      weight: 2.5,
+      color: '#88FF00',
+      weight: 2,
       label: 'England',
       answer: 'London'
     },
@@ -33,8 +33,8 @@ const wheel = {
       answer: 'Amsterdam'
     },
     {
-      color: '#b23caa',
-      weight: 2.5,
+      color: '#888888',
+      weight: 2,
       label: 'Spanien',
       answer: 'Madrid'
     },
@@ -45,20 +45,20 @@ const wheel = {
       answer: 'Rom'
     },
     {
-      color: '#b23caa',
-      weight: 2.5,
+      color: '#FF0000',
+      weight: 2,
       label: 'Schweiz',
       answer: 'Bern'
     },
     {
       color: '#e5e059',
-      weight: 1.5,
+      weight: 2,
       label: 'Österreich',
       answer: 'Wien'
     },
     {
       color: '#b23caa',
-      weight: 2.5,
+      weight: 2,
       label: 'Belgien',
       answer: 'Brüssel'
     },
